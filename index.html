@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
   <meta charset="UTF-8" />
-  <title>注释版歌词示例</title>
+  <title>中华上下五千年 - 完整歌词（人名注释）</title>
   <style>
     body {
       margin: 20px auto;
@@ -10,11 +10,16 @@
       line-height: 1.6;
       font-family: "Microsoft YaHei", sans-serif;
     }
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 1.3rem;
+      text-align: center;
+    }
     .annotation {
       color: #0066cc;
       text-decoration: underline;
       cursor: pointer;
-      position: relative; /* 便于定位内部的 note 弹窗 */
+      position: relative;
     }
     .note {
       display: none;
@@ -27,337 +32,196 @@
       margin-top: 2px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.3);
       z-index: 999;
-      width: 260px;
+      width: 240px;
+      font-size: 14px;
+      line-height: 1.4;
     }
-    .annotation:hover .note {
-      /* 如果想改为“悬停显示”，可用 hover；但本例我们改用点击切换，所以这里注释掉 */
-      /* display: block; */
+    p {
+      margin-bottom: 1em;
     }
   </style>
 </head>
 <body>
 
-<h2>中华上下五千年 — 注释版歌词示例</h2>
+<h1>中华上下五千年（人名注释版）</h1>
 
 <p>
 从传说 
-<span class="annotation" onclick="toggleNote(this)">
-  盘古开了天
-  <span class="note">
-    传说中开辟天地的始祖，开天辟地后才有了世界的雏形。
-  </span>
-</span> 
-然后 
-<span class="annotation" onclick="toggleNote(this)">
-  女娲造了神仙
-  <span class="note">
-    上古神话中创造人类的女神，也曾“炼石补天”。
-  </span>
-</span><br/>
+<span class="annotation" onclick="toggleNote(this)">盘古
+  <span class="note">上古神话中开天辟地的始祖。</span>
+</span> 开了天，然后 
+<span class="annotation" onclick="toggleNote(this)">女娲
+  <span class="note">传说中用泥造人、补天的女神。</span>
+</span> 造了神仙。<br/>
 而 
-<span class="annotation" onclick="toggleNote(this)">
-  炎黄
-  <span class="note">
-    炎帝与黄帝，中国上古传说中的两位部落首领，被视为华夏始祖。
-  </span>
-</span> 
-站在了黄河边 才逐渐有了人烟<br/>
+<span class="annotation" onclick="toggleNote(this)">炎黄
+  <span class="note">炎帝、黄帝，华夏民族的共同祖先。</span>
+</span> 站在了黄河边，才逐渐有了人烟。<br/>
 先有 
-<span class="annotation" onclick="toggleNote(this)">
-  仓颉造字
-  <span class="note">
-    传说中最早创造文字的人，被尊为“造字圣人”。
-  </span>
-</span> 
-写下了 
-<span class="annotation" onclick="toggleNote(this)">
-  后羿射日
-  <span class="note">
-    上古神话中，后羿射下九个太阳，拯救大地苍生。
-  </span>
-</span><br/>
-再有 
-<span class="annotation" onclick="toggleNote(this)">
-  精卫展翅
-  <span class="note">
-    精卫填海的故事，象征不畏艰难、坚持不懈的精神。
-  </span>
-</span> 
-说的是古人有志<br/>
-<span class="annotation" onclick="toggleNote(this)">
-  大禹治水
-  <span class="note">
-    夏朝建立者，因治水功绩显赫，被后世尊称“大禹”。
-  </span>
-</span> 
-在何处而
-<span class="annotation" onclick="toggleNote(this)">
-  三过家门不入
-  <span class="note">
-    大禹治水典故，因忙于治水，三次路过家门却不进家门。
-  </span>
-</span><br/>
+<span class="annotation" onclick="toggleNote(this)">仓颉
+  <span class="note">传说中最早发明文字的人。</span>
+</span> 造字，写下了后羿射日；<br/>
+再有精卫展翅，说的是古人有志。<br/>
+<span class="annotation" onclick="toggleNote(this)">大禹
+  <span class="note">夏朝的创建者，以治水闻名。</span>
+</span> 治水在何处，而三过家门不入？<br/>
 因为 
-<span class="annotation" onclick="toggleNote(this)">
-  共工
-  <span class="note">
-    上古神话水神，共工怒触不周山，撞断擎天之柱。
-  </span>
-</span> 
-的怒 断了擎天的柱<br/>
-那颗通天的树 倒下成了条路<br/>
-我们一步一步 在口中记录<br/>
-当神话谢幕 真正的历史才开始拉开帷幕<br/>
+<span class="annotation" onclick="toggleNote(this)">共工
+  <span class="note">上古神话中的水神，怒触不周山。</span>
+</span> 的怒，断了擎天的柱。<br/>
+那颗通天的树，倒下成了条路。<br/>
+我们一步一步，在口中记录。<br/>
+当神话谢幕，真正的历史才开始拉开帷幕。<br/>
 自 
-<span class="annotation" onclick="toggleNote(this)">
-  尧舜
-  <span class="note">
-    上古传说中的“圣王”，常与禹并称“尧舜禹”。
-  </span>
-</span> 
-时到
-<span class="annotation" onclick="toggleNote(this)">
-  夏商
-  <span class="note">
-    中国早期王朝（夏朝、商朝）的开端。
-  </span>
-</span> 
-从取火又到麻桑<br/>
-那年的 
-<span class="annotation" onclick="toggleNote(this)">
-  四海八荒
-  <span class="note">
-    古籍或神话中对天下的夸张称呼。
-  </span>
-</span> 
-到今日剩了残光<br/>
-当最后一位
-<span class="annotation" onclick="toggleNote(this)">
-  人皇 自鹿台誓死不降
-  <span class="note">
-    指商纣王，鹿台是他奢靡享乐之处，最终商朝灭亡。
-  </span>
-</span><br/>
-以尸骨铸的高墙 不过是笔下两行<br/>
-<span class="annotation" onclick="toggleNote(this)">
-  姜太公
-  <span class="note">
-    即姜尚（姜子牙），辅佐周武王灭商，建立周朝。
-  </span>
-</span> 愿者上勾 便定了国号为
-<span class="annotation" onclick="toggleNote(this)">
-  周
-  <span class="note">
-    周朝持续约八百年，历经西周和东周两个时期。
-  </span>
-</span><br/>
-此八百年来似无忧 却分了百个春秋<br/>
-只为了佳人一回眸 以 
-<span class="annotation" onclick="toggleNote(this)">
-  烽火戏了诸侯
-  <span class="note">
-    周幽王为博褒姒一笑，点燃烽火台戏弄诸侯。
-  </span>
-</span><br/>
-若问我要个理由 我想那必是温柔<br/>
-春秋战国五百年 这五百年的战火连<br/>
-昔日 
-<span class="annotation" onclick="toggleNote(this)">
-  诸子百家
-  <span class="note">
-    春秋战国时代各种思想流派，如儒、道、法、墨等。
-  </span>
-</span> 言 今日已成了圣贤<br/>
+<span class="annotation" onclick="toggleNote(this)">尧舜
+  <span class="note">相传为上古贤明首领，多与大禹并称。</span>
+</span> 时到夏商，从取火又到麻桑。<br/>
+那年的四海八荒，到今日剩了残光。<br/>
+当最后一位人皇，自鹿台誓死不降；<br/>
+以尸骨铸的高墙，不过是笔下两行。<br/>
+<span class="annotation" onclick="toggleNote(this)">姜太公
+  <span class="note">又称姜子牙，辅佐周武王灭商。</span>
+</span> 愿者上勾，便定了国号为周。<br/>
+此八百年来似无忧，却分了百个春秋。<br/>
+只为了佳人一回眸，以烽火戏了诸侯。<br/>
+若问我要个理由，我想那必是温柔。<br/>
+</p>
+
+<p>
+春秋战国五百年，这五百年的战火连。<br/>
+昔日诸子百家言，今日已成了圣贤。<br/>
 看 
-<span class="annotation" onclick="toggleNote(this)">
-  老子
-  <span class="note">
-    道家创始人，传说曾著《道德经》，驾青牛出函谷关。
-  </span>
-</span> 紫气东来 对 
-<span class="annotation" onclick="toggleNote(this)">
-  孔子
-  <span class="note">
-    儒家代表人物，提倡“仁”、“礼”。
-  </span>
-</span> 以礼相怀<br/>
-那百家经世之才 不尽被黄土而埋<br/>
-卧薪尝胆 
-<span class="annotation" onclick="toggleNote(this)">
-  越王剑
-  <span class="note">
-    指越王勾践“卧薪尝胆”复仇雪耻，终灭吴国。
-  </span>
-</span> 南门立木金不欠<br/>
-<span class="annotation" onclick="toggleNote(this)">
-  完璧归赵
-  <span class="note">
-    指蔺相如完好无损地将和氏璧带回赵国的典故。
-  </span>
-</span> 回金殿 一曲
-<span class="annotation" onclick="toggleNote(this)">
-  离骚
-  <span class="note">
-    战国诗人屈原代表作，《离骚》是骚体诗的开端。
-  </span>
-</span> 再难见<br/>
-车同轨 书同文 万里长城尚有痕<br/>
-那古往今来第一人 可惜了未被封了神<br/>
-那
-<span class="annotation" onclick="toggleNote(this)">
-  千古一帝
-  <span class="note">
-    秦始皇嬴政的尊称，但其后秦二世而亡。
-  </span>
-</span> 已自二世难续 问那长生何意啊 用了举国之力<br/>
-可
-<span class="annotation" onclick="toggleNote(this)">
-  王侯将相宁有种
-  <span class="note">
-    陈胜吴广起义时的口号：“王侯将相宁有种乎”。
-  </span>
-</span> 到今日仍有人不懂<br/>
-<span class="annotation" onclick="toggleNote(this)">
-  刘邦
-  <span class="note">
-    汉高祖，虽不及项羽勇猛，最终建立了汉朝。
-  </span>
-</span> 不及
-<span class="annotation" onclick="toggleNote(this)">
-  霸王
-  <span class="note">
-    指西楚霸王项羽，勇武过人，却败于刘邦。
-  </span>
-</span> 勇 可未见与人高一等<br/>
-兄弟仇若隔了夜 便成了 
-<span class="annotation" onclick="toggleNote(this)">
-  楚河汉界
-  <span class="note">
-    楚汉战争鸿沟为界，后世以此指势力分界。
-  </span>
-</span><br/>
-乌江畔的英雄血 随江水念了声妾<br/>
-他稳坐在了咸阳 封了八个异姓的王<br/>
-可宫门外的高墙 那刀剑却已难藏<br/>
-又是谁尊了儒术 将
-<span class="annotation" onclick="toggleNote(this)">
-  丝绸运
-  <span class="note">
-    开通丝绸之路，连接西域与中原，主要指汉武帝时期的对外交流。
-  </span>
-</span> 至何处<br/>
-<span class="annotation" onclick="toggleNote(this)">
-  冠军侯
-  <span class="note">
-    指汉名将霍去病，因战功赫赫而封“冠军侯”。
-  </span>
-</span> 单枪而入 自司马手中写录<br/>
-我大汉至了结尾 这满朝窃国的匪 皆怕那世人的嘴 所以皇帝成了傀儡<br/>
-到了天下三分 那烈酒定是余温<br/>
-可怜这三人的根 后被
-<span class="annotation" onclick="toggleNote(this)">
-  司马
-  <span class="note">
-    指司马家族，最终取代曹魏，建立晋朝。
-  </span>
-</span> 定了乾坤<br/>
-<span class="annotation" onclick="toggleNote(this)">
-  八王之乱
-  <span class="note">
-    西晋时期皇族间的内乱，加速晋朝灭亡。
-  </span>
-</span> 自南北分了一半 书中的易子而换 更像是一声长叹<br/>
-<span class="annotation" onclick="toggleNote(this)">
-  杨广
-  <span class="note">
-    隋炀帝，修建大运河，开科举制度，也因奢侈无度而失民心。
-  </span>
-</span> 自运河而下 以科举传了佳话<br/>
-可劳民伤财遭的骂 比功绩来的还大<br/>
-那玄武门外的墙 曾也有刀剑相藏<br/>
-可若是没那血两行 哪来的盛世大唐<br/>
-千古的一位女皇 谁说的不如儿郎<br/>
-<span class="annotation" onclick="toggleNote(this)">
-  无字碑
-  <span class="note">
-    武则天于乾陵立的无字碑，功过留待后人评说。
-  </span>
-</span> 无字一行 问功与过又何妨<br/>
-安史乱后无英豪 不过是生死命一条<br/>
-三岁孩童戏歌谣 再无人比那
-<span class="annotation" onclick="toggleNote(this)">
-  黄巢
-  <span class="note">
-    唐末农民起义领袖，其诗“待到秋来九月八，我花开尽百花杀”著名。
-  </span>
-</span><br/>
-待到来年九月八 我花开后百花杀<br/>
-冲天香阵透长安 满城尽带黄金甲<br/>
-自黄袍加在身前 以杯酒释了兵权<br/>
-可多年后再想当年 这才是忠义两全<br/>
-那
-<span class="annotation" onclick="toggleNote(this)">
-  靖康之祸
-  <span class="note">
-    北宋汴京被金军攻破，徽钦二帝被俘，史称靖康之变。
-  </span>
-</span> 到今日仍被人唾<br/>
-那尽忠报国之诺 在当年竟是为过<br/>
-将军若是不还朝 有谁可动你分毫<br/>
-那
-<span class="annotation" onclick="toggleNote(this)">
-  莫须有
-  <span class="note">
-    “莫须有”罪名，指秦桧等诬陷岳飞的罪名，最终致其遇害。
-  </span>
-</span> 的罪一条 还真是罪不可饶<br/>
-自大汗铁蹄之下 也败了英雄白发<br/>
-这普天下的佳话 唯有那万国皆怕<br/>
-是和尚还是乞丐 换来的山河不败<br/>
-那英雄便有的无奈 是手中刀斧的快<br/>
-可惜了
-<span class="annotation" onclick="toggleNote(this)">
-  土木之变
-  <span class="note">
-    明英宗亲征瓦剌兵败被俘，明朝国力大受打击。
-  </span>
-</span> 让盛世再难重现<br/>
-用粉身碎骨换一遍 六月的飞雪一片<br/>
-那一日剩了一人 脚下已再无群臣<br/>
-便遵了祖上训的文 那天子死在国门<br/>
-当四方兵马来袭 便走的坚定不移<br/>
-这天下似个棋局 唯是那当局者迷<br/>
-冲冠一怒为红颜 也不过是个传言<br/>
-名利要在了身前 那骂名还了百年<br/>
-<span class="annotation" onclick="toggleNote(this)">
-  清兵入关平三藩
-  <span class="note">
-    清初康熙帝平定三藩之乱（吴三桂、耿精忠、尚可喜），后也收复台湾。
-  </span>
-</span> 以水军收了台湾<br/>
-也算是几座高山 错在了百年闭关<br/>
-在闭关锁国那一日 便定了清风不识字<br/>
-后来人的鸿鹄志 更像是我中华翅<br/>
-从盘古到这清末 又怎能就此别过<br/>
-这五千年的颜色 仍在为了你我而烁<br/>
-我华夏儿女的乡 自古是礼仪之邦<br/>
-而这个古老的东方 立在了世界中央<br/>
-今日的阳光普照 是前人给的依靠<br/>
-此生第一个骄傲 是生来有的荣耀<br/>
-这中华上下五千年 有多少话还未言<br/>
-还会有沧海桑田 由你我来续前缘<br/>
-我等炎黄子孙 早已骨血难分<br/>
-若还热血尚温<br/>
-看我一笔乾坤
+<span class="annotation" onclick="toggleNote(this)">老子
+  <span class="note">道家代表人物，著《道德经》。</span>
+</span> 紫气东来，对 
+<span class="annotation" onclick="toggleNote(this)">孔子
+  <span class="note">儒家创始人，主张“仁”与“礼”。</span>
+</span> 以礼相怀。<br/>
+那百家经世之才，不尽被黄土而埋。<br/>
+卧薪尝胆越王剑，南门立木金不欠。<br/>
+完璧归赵回金殿，一曲离骚再难见。<br/>
+</p>
+
+<p>
+车同轨、书同文，万里长城尚有痕。<br/>
+那古往今来第一人，可惜了未被封了神。<br/>
+那千古一帝，已自二世难续；<br/>
+问那长生何意啊？用了举国之力。<br/>
+可王侯将相宁有种，到今日仍有人不懂。<br/>
+</p>
+
+<p>
+<span class="annotation" onclick="toggleNote(this)">刘邦
+  <span class="note">汉高祖，善于用人，最终打败项羽。</span>
+</span> 不及 
+<span class="annotation" onclick="toggleNote(this)">霸王
+  <span class="note">指项羽，西楚霸王，英勇却兵败乌江。</span>
+</span> 勇，可未见与人高一等。<br/>
+兄弟仇若隔了夜，便成了楚河汉界。<br/>
+乌江畔的英雄血，随江水念了声“妾”。<br/>
+他稳坐在了咸阳，封了八个异姓的王；<br/>
+可宫门外的高墙，那刀剑却已难藏。<br/>
+又是谁尊了儒术，将丝绸运至何处？<br/>
+冠军侯单枪而入，自司马手中写录。<br/>
+我大汉至了结尾，这满朝窃国的匪，<br/>
+皆怕那世人的嘴，所以皇帝成了傀儡。<br/>
+</p>
+
+<p>
+到了天下三分，那烈酒定是余温；<br/>
+可怜这三人的根，后被 
+<span class="annotation" onclick="toggleNote(this)">司马
+  <span class="note">指司马氏家族，后建立晋朝。</span>
+</span> 定了乾坤。<br/>
+八王之乱，自南北分了一半；<br/>
+书中的易子而换，更像是一声长叹。<br/>
+</p>
+
+<p>
+<span class="annotation" onclick="toggleNote(this)">杨广
+  <span class="note">即隋炀帝，开凿大运河，设科举，亦因奢侈而失人心。</span>
+</span> 自运河而下，以科举传了佳话；<br/>
+可劳民伤财遭的骂，比功绩来的还大。<br/>
+那玄武门外的墙，曾也有刀剑相藏；<br/>
+可若是没那血两行，哪来的盛世大唐？<br/>
+</p>
+
+<p>
+千古的一位女皇，谁说的不如儿郎？<br/>
+无字碑无字一行，问功与过又何妨。<br/>
+安史乱后无英豪，不过是生死命一条；<br/>
+三岁孩童戏歌谣，再无人比那 
+<span class="annotation" onclick="toggleNote(this)">黄巢
+  <span class="note">唐末农民起义领袖，写过“待到秋来九月八，我花开后百花杀”。</span>
+</span>。<br/>
+待到来年九月八，我花开后百花杀；<br/>
+冲天香阵透长安，满城尽带黄金甲。<br/>
+</p>
+
+<p>
+自黄袍加在身前，以杯酒释了兵权；<br/>
+可多年后再想当年，这才是忠义两全。<br/>
+那靖康之祸，到今日仍被人唾；<br/>
+那尽忠报国之诺，在当年竟是为过。<br/>
+将军若是不还朝，有谁可动你分毫？<br/>
+那莫须有的罪一条，还真是罪不可饶。<br/>
+</p>
+
+<p>
+自大汗铁蹄之下，也败了英雄白发；<br/>
+这普天下的佳话，唯有那万国皆怕。<br/>
+是和尚还是乞丐，换来的山河不败；<br/>
+那英雄便有的无奈，是手中刀斧的快。<br/>
+可惜了土木之变，让盛世再难重现；<br/>
+用粉身碎骨换一遍，六月的飞雪一片。<br/>
+那一日剩了一人，脚下已再无群臣；<br/>
+便遵了祖上训的文，那天子死在国门。<br/>
+当四方兵马来袭，便走得坚定不移；<br/>
+这天下似个棋局，唯是那当局者迷。<br/>
+</p>
+
+<p>
+冲冠一怒为红颜，也不过是个传言；<br/>
+名利要在了身前，那骂名还了百年。<br/>
+清兵入关平三藩，以水军收了台湾；<br/>
+也算是几座高山，错在了百年闭关。<br/>
+在闭关锁国那一日，便定了清风不识字；<br/>
+后来人的鸿鹄志，更像是我中华翅。<br/>
+</p>
+
+<p>
+从 
+<span class="annotation" onclick="toggleNote(this)">盘古
+  <span class="note">上古神话中开天辟地的始祖。</span>
+</span> 到这清末，又怎能就此别过？<br/>
+这五千年的颜色，仍在为了你我而烁。<br/>
+我 
+<span class="annotation" onclick="toggleNote(this)">炎黄
+  <span class="note">炎帝、黄帝，华夏民族的共同祖先。</span>
+</span> 儿女的乡，自古是礼仪之邦；<br/>
+而这个古老的东方，立在了世界中央。<br/>
+今日的阳光普照，是前人给的依靠；<br/>
+此生第一个骄傲，是生来有的荣耀。<br/>
+这中华上下五千年，有多少话还未言？<br/>
+还会有沧海桑田，由你我来续前缘。<br/>
+我等炎黄子孙，早已骨血难分；<br/>
+若还热血尚温，看我一笔乾坤。<br/>
 </p>
 
 <script>
 function toggleNote(elem) {
-  // 找到 .note
-  var note = elem.querySelector('.note');
-  if (note.style.display === 'block') {
-    note.style.display = 'none';
-  } else {
+  // 找到当前注释
+  const note = elem.querySelector('.note');
+  // 判断它是否已显示
+  const isVisible = (note.style.display === 'block');
+  
+  // 隐藏页面上所有注释
+  document.querySelectorAll('.note').forEach(n => {
+    n.style.display = 'none';
+  });
+  
+  // 若当前注释原先是隐藏的，则显示；否则保持隐藏
+  if (!isVisible) {
     note.style.display = 'block';
   }
 }
